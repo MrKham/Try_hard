@@ -12,6 +12,9 @@ gem "coffee-rails", "~> 4.2"
 gem "jquery-rails"
 gem "turbolinks", "~> 5"
 gem "jbuilder", "~> 2.5"
+gem 'rubocop-checkstyle_formatter', require: false
+gem 'rubocop', require: false
+gem 'scss_lint', require: false
 group :development, :test do
   gem "byebug", platform: :mri
 end
