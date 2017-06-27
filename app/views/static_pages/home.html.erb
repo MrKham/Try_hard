@@ -1,0 +1,7 @@
+<% provide :title, t(".title") %>
+<h1><%= t".title_app" %></h1>
+<p>
+  <%= t(".content",
+    rort: link_to(t(".link_name_home"),
+      "link")).html_safe %>
+</p>
