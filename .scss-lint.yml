@@ -5,7 +5,6 @@ exclude: 'app/assets/stylesheets/application.css'
 linters:
   BorderZero:
     enabled: false
-
   Indentation:
     exclude:
       - 'path/to/file.scss'
