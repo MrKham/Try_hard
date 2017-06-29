@@ -16,7 +16,7 @@ Style/Documentation:
   Description: "Document classes and non-namespace modules."
   Enabled: false
 
-Style/EmptyLinesAroundAccessModifier:
+Layout/EmptyLinesAroundAccessModifier:
   Description: "Keep blank lines around access modifiers."
   Enabled: false
 
@@ -44,7 +44,7 @@ Metrics/CyclomaticComplexity:
   Description: "Avoid complex methods."
   Enabled: false
 
-Style/AlignArray:
+Layout/AlignArray:
   Description: >-
                  Align the elements of an array literal if they span more than
                  one line.
