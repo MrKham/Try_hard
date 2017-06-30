@@ -5,6 +5,13 @@ exclude: 'app/assets/stylesheets/application.css'
 linters:
   BorderZero:
     enabled: false
+
+  SelectorFormat:
+    ignored_names: ["debug_dump"]
+
+  PlaceholderInExtend:
+    enabled: false
+
   Indentation:
     exclude:
       - 'path/to/file.scss'

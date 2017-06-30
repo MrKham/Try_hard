@@ -5,6 +5,9 @@ valid:
     length_min: 6
   user_name:
     length_max: 50
+  app_helper:
+    size: 80
+
 valid_test:
   user_email:
     length_error: 254
