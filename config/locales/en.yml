@@ -8,8 +8,10 @@ en:
   about: "About"
   contact: "Contact"
   login: "Log in"
+  logout: "Log Out"
   welcome: "Welcome to the Sample App!"
   error: "error"
+  valid: "Invalid email/password combination"
   static_pages:
     home:
       link_name_home: "Ruby on Rails Tutorial"
