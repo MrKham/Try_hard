@@ -8,7 +8,10 @@ en:
   about: "About"
   contact: "Contact"
   login: "Log in"
-
+  logout: "Log Out"
+  welcome: "Welcome to the Sample App!"
+  error: "error"
+  valid: "Invalid email/password combination"
   static_pages:
     home:
       link_name_home: "Ruby on Rails Tutorial"
@@ -49,5 +52,10 @@ en:
       new: "News"
   users:
     new:
-      one: "Users#new"
-      two: "Find me in app/views/users/new.html.erb"
+      sign_up: "Sign Up"
+      create_my_acc: "Create my account"
+      confirm: "Confirmation"
+  shared:
+    error_messages:
+      content: "The form contains"
+      error: "error."
