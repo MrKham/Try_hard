@@ -4,3 +4,8 @@ FeatureEnvy:
   enabled: false
   exclude:
     - "UsersController"
+TooManyStatements:
+  enabled: true
+  exclude:
+  - initialize
+  max_statements: 10
