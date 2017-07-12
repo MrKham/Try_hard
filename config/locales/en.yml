@@ -8,9 +8,12 @@ en:
   about: "About"
   contact: "Contact"
   login: "Log in"
+  logout: "Log Out"
   welcome: "Welcome to the Sample App!"
   error: "error"
   error_user: "Not Found User"
+  new_user: "New user?"
+  error_valid: "Invalid email/password combination"
   static_pages:
     home:
       link_name_home: "Ruby on Rails Tutorial"
@@ -49,6 +52,11 @@ en:
       name_mh: "Michael Hartl"
       content: "The %{rort} by %{mh}"
       new: "News"
+    header:
+      users: "Users"
+      profile: "Profile"
+      settings: "Settings"
+      account: "Account"
   users:
     new:
       sign_up: "Sign Up"
