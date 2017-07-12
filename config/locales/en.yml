@@ -14,6 +14,7 @@ en:
   error_user: "Not Found User"
   new_user: "New user?"
   error_valid: "Invalid email/password combination"
+  remmember: "Remember me"
   static_pages:
     home:
       link_name_home: "Ruby on Rails Tutorial"
