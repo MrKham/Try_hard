@@ -48,6 +48,8 @@ en:
   password_has_ben_reset: "Password has been reset."
   not_empty: "can't be empty"
   password_has_expired: "Password reset has expired."
+  Account_activation: "Account activation"
+  password_text: "User#password_reset"
   static_pages:
     home:
       link_name_home: "Ruby on Rails Tutorial"
