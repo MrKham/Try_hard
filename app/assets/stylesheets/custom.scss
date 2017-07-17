@@ -5,6 +5,8 @@
 $color: #fff;
 $gray-medium-light: #eaeaea;
 $bbb: #bbb;
+$color-text1: #46427f;
+$colot-text2: #c9d5db;
 
 @mixin box-sizing {
   box-sizing: border-box;
@@ -214,5 +216,18 @@ form {
   .session-remember-me {
     margin-left: 0;
     width: auto;
+  }
+}
+
+//Users index
+
+.users {
+  list-style: none;
+  margin: 0;
+
+  li {
+    border-bottom: 1px solid $gray-lighter;
+    overflow: auto;
+    padding: 10px 0;
   }
 }

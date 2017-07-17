@@ -15,6 +15,17 @@ en:
   new_user: "New user?"
   error_valid: "Invalid email/password combination"
   remmember: "Remember me"
+  edit_user: "Edit User"
+  save_change: "Save changes"
+  change: "Change"
+  profile_update: "Profile updated"
+  content_update: "Update your profile"
+  please_login: "Please log in."
+  all_user: "All users"
+  or: "|"
+  delete_user: "User deleted"
+  you_sure: "You sure?"
+  delete: "Delete"
   static_pages:
     home:
       link_name_home: "Ruby on Rails Tutorial"
