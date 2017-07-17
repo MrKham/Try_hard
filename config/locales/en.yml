@@ -35,8 +35,26 @@ en:
   welcome_app: "Welcome to the Sample App! Click on the link below to activate
   your account:"
   activated: "Activate"
+  account_activation: "Account activation"
+  forgot_password: "(forgot password)"
+  forget_password: "Forgot password"
+  submit: "Submit"
+  email_reset: "Email sent with password reset instructions"
+  email_not_found: "Email address not found"
+  password_reset: "Password reset"
+  reset_password: "Reset password"
+  update_password: "Update password"
+  confirmation: "Confirmation"
+  password_has_ben_reset: "Password has been reset."
+  not_empty: "can't be empty"
+  password_has_expired: "Password reset has expired."
   Account_activation: "Account activation"
   password_text: "User#password_reset"
+  email_example: "Password reset"
+  content_text1: "To reset your password click the link below:"
+  content_text2: "This link will expire in two hours."
+  content_text3: "If you did not request your password to be reset,
+    please ignore this email and your password will stay as it is."
   static_pages:
     home:
       link_name_home: "Ruby on Rails Tutorial"
