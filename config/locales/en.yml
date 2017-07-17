@@ -26,6 +26,17 @@ en:
   delete_user: "User deleted"
   you_sure: "You sure?"
   delete: "Delete"
+  check_email: "Please check your email to activate your account."
+  account_activated: "Account activated!"
+  valid_activated: "Invalid activation link"
+  not_activated: "Account not activated.
+  Check your email for the activation link. "
+  hi: "Hi"
+  welcome_app: "Welcome to the Sample App! Click on the link below to activate
+  your account:"
+  activated: "Activate"
+  Account_activation: "Account activation"
+  password_text: "User#password_reset"
   static_pages:
     home:
       link_name_home: "Ruby on Rails Tutorial"
