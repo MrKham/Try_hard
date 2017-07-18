@@ -29,4 +29,17 @@ class SessionsController < ApplicationController
       redirect_to root_url
     end
   end
+
+  def create_activated user
+    if user.activated?
+      log_in user
+      params[:session][:remember_me] == "1" ? remember(user) : forget(user)
+      redirect_back_or user
+    else
+      message  = t "not_activated"
+      message += t "check_email_link"
+      flash[:warning] = message
+      redirect_to root_url
+    end
+  end
 end
