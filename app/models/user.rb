@@ -1,9 +1,5 @@
 class User < ApplicationRecord
-<<<<<<< 8aa6ac46ac9fd6a11b2f35a093379eef0b5606f4
   attr_reader :remember_token, :activation_token, :reset_token
-=======
-  attr_reader :remember_token, :activation_token
->>>>>>> account activated
 
   has_secure_password
 
@@ -18,11 +14,7 @@ class User < ApplicationRecord
   validates :name, presence: true,
     length: {maximum: Settings.valid.user_name.length_max}
 
-<<<<<<< 8aa6ac46ac9fd6a11b2f35a093379eef0b5606f4
-  before_save   :downcase_email
-=======
   before_save :downcase_email
->>>>>>> account activated
   before_create :create_activation_digest
 
   def self.digest string
@@ -66,7 +58,6 @@ class User < ApplicationRecord
     UserMailer.account_activation(self).deliver_now
   end
 
-<<<<<<< 8aa6ac46ac9fd6a11b2f35a093379eef0b5606f4
   def create_reset_digest
     @reset_token = User.new_token
     update_attributes reset_digest: User.digest(reset_token)
@@ -81,8 +72,6 @@ class User < ApplicationRecord
     reset_sent_at < 2.hours.ago
   end
 
-=======
->>>>>>> account activated
   private
 
   def downcase_email
