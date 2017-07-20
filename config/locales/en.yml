@@ -1,0 +1,104 @@
+en:
+  title: "Home"
+  title_info: "Ruby on Rails Tutorial Sample App"
+  app: "Sample App"
+  sign_up: "Sign Up Now!"
+  home: "Home"
+  help: "Help"
+  about: "About"
+  contact: "Contact"
+  login: "Log in"
+  logout: "Log Out"
+  welcome: "Welcome to the Sample App!"
+  error: "error"
+  error_user: "Not Found User"
+  new_user: "New user?"
+  error_valid: "Invalid email/password combination"
+  remmember: "Remember me"
+  edit_user: "Edit User"
+  save_change: "Save changes"
+  change: "Change"
+  profile_update: "Profile updated"
+  content_update: "Update your profile"
+  please_login: "Please log in."
+  all_user: "All users"
+  or: "|"
+  delete_user: "User deleted"
+  you_sure: "You sure?"
+  delete: "Delete"
+  check_email: "Please check your email to activate your account."
+  account_activated: "Account activated!"
+  valid_activated: "Invalid activation link"
+  not_activated: "Account not activated.
+  Check your email for the activation link. "
+  hi: "Hi"
+  welcome_app: "Welcome to the Sample App! Click on the link below to activate
+  your account:"
+  activated: "Activate"
+  account_activation: "Account activation"
+  forgot_password: "(forgot password)"
+  forget_password: "Forgot password"
+  submit: "Submit"
+  email_reset: "Email sent with password reset instructions"
+  email_not_found: "Email address not found"
+  password_reset: "Password reset"
+  reset_password: "Reset password"
+  update_password: "Update password"
+  confirmation: "Confirmation"
+  password_has_ben_reset: "Password has been reset."
+  not_empty: "can't be empty"
+  password_has_expired: "Password reset has expired."
+  Account_activation: "Account activation"
+  password_text: "User#password_reset"
+  static_pages:
+    home:
+      link_name_home: "Ruby on Rails Tutorial"
+      title_app: "Sample App"
+      title: "Home"
+      content: "This is the home page for the %{rort} sample application."
+
+    help:
+      title_help: "Help"
+      link_name_help: "Rails Tutorial help section"
+      link_help_ror: "Ruby on Rails Tutorial"
+      title: "Help"
+      content: "Get help on the Ruby on Rails Tutorial at the %{help}.
+      To get help on this sample app, see the <em>%{book}</em>."
+
+    about:
+      title_about: "About"
+      link_name_about: "Ruby on Rails Tutorial"
+      link_name_book: "book"
+      link_name_screencast_series: "screencast series"
+      link_name_rubyor: "Ruby on Rails"
+      title: "About"
+      content: "The <em>%{link_book}</em> is a %{book} and
+      %{link_screencast} to teach web development with %{link_ror}.
+      This is the sample application for the tutorial."
+
+    contact:
+      title_contact: "Contact"
+      title: "Contact"
+      link_name_page: "contact page"
+      content: "Contact the Ruby on Rails Tutorial about the sample app
+        at the %{contact_page}."
+
+  layouts:
+    footer:
+      name_mh: "Michael Hartl"
+      content: "The %{rort} by %{mh}"
+      new: "News"
+    header:
+      users: "Users"
+      profile: "Profile"
+      settings: "Settings"
+      account: "Account"
+  users:
+    new:
+      sign_up: "Sign Up"
+      create_my_acc: "Create my account"
+      confirm: "Confirmation"
+  shared:
+    error_messages:
+      content: "The form contains"
+      error: "error."

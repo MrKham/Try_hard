@@ -1,0 +1,16 @@
+IrresponsibleModule:
+  enabled: false
+FeatureEnvy:
+  enabled: false
+  exclude:
+    - "UsersController"
+TooManyStatements:
+  enabled: true
+  exclude:
+  - initialize
+  max_statements: 10
+DuplicateMethodCall:
+  max_calls: 5
+'app/controllers':
+  InstanceVariableAssumption:
+    enabled: false

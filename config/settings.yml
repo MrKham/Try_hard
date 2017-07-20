@@ -1,0 +1,19 @@
+valid:
+  user_email:
+    length_max: 255
+  user_password:
+    length_min: 6
+  user_name:
+    length_max: 50
+  app_helper:
+    size: 80
+  gravata: 50
+  users_helper:
+    size: 80
+valid_test:
+  user_email:
+    length_error: 254
+  user_password:
+    length_error: 6
+  user_name:
+    length_error: 49
