@@ -55,6 +55,9 @@ en:
   content_text2: "This link will expire in two hours."
   content_text3: "If you did not request your password to be reset,
     please ignore this email and your password will stay as it is."
+  post: "Posted"
+  ago: "ago."
+  micropost: "Microposts"
   static_pages:
     home:
       link_name_home: "Ruby on Rails Tutorial"

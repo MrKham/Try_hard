@@ -2,6 +2,7 @@ class User < ApplicationRecord
   attr_reader :remember_token, :activation_token, :reset_token
 
   has_secure_password
+  has_many :microposts, dependent: :destroy
 
   VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i
 
