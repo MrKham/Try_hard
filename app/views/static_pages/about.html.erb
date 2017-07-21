@@ -1,0 +1,13 @@
+<% provide :title, t(".title") %>
+<h1><%= t".title_about" %></h1>
+<p>
+  <%=t(".content",
+    link_book: link_to(t(".link_name_about"),
+      "http://www.railstutorial.org/"),
+    book: link_to(t(".link_name_book"),
+      "http://www.railstutorial.org/book"),
+    link_screencast: link_to(t(".link_name_screencast_series"),
+      "http://screencasts.railstutorial.org/"),
+    link_ror: link_to(t(".link_name_rubyor"),
+      "http://rubyonrails.org/")).html_safe %>
+</p>

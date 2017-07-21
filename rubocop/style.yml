@@ -1,0 +1,6 @@
+Style/AccessModifierIndentation:
+    Enabled: false
+
+ Style/TrailingCommaInArguments:
+    Enabled: true
+    EnforcedStyleForMultiline: comma
