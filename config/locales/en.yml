@@ -58,6 +58,10 @@ en:
   post: "Posted"
   ago: "ago."
   micropost: "Microposts"
+  micropost_feed: "Micropost Feed"
+  micropost_created: "Micropost created!"
+  micropost_deleted: "Micropost deleted!"
+  compose_new: "Compose new micropost..."
   static_pages:
     home:
       link_name_home: "Ruby on Rails Tutorial"
